@@ -1,0 +1,8 @@
+node_modules/
+data/
+.sesion/
+.wwebjs_cache/
+.env
+bot/node_modules/
+.vercel
+bot/conexion.json

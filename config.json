@@ -1,0 +1,12 @@
+{
+  "usuario": "admin",
+  "contrasena": "admin",
+  "puerto": 3000,
+  "sessionSecret": "cambia-esto-por-una-frase-larga",
+  "horaResumen": "22:00",
+  "zonaHoraria": "America/Bogota",
+  "upstashUrl": "https://ace-osprey-181386.upstash.io",
+  "nombre": "JIJAZOS",
+  "prefijo": "jz",
+  "stakeMinimo": 15
+}
