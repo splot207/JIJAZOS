@@ -356,3 +356,6 @@ label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color:
 .login-caja { border-top: 4px solid var(--oro); border-radius: 8px; }
 .login-caja .marca-logo { font-size: 52px; }
 .tabla th { color: var(--oro); }
+
+.nota-envio { font-size: 13px; color: var(--tenue); margin: -4px 0 12px; }
+.dia-viejo { font-size: 11px; color: var(--tenue); border: 1px solid var(--borde); border-radius: 999px; padding: 1px 8px; margin-left: 6px; white-space: nowrap; }
