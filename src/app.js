@@ -61,6 +61,14 @@ function resumenPeriodo(apuestas, capital) {
   };
 }
 
+// Cualquier página (por ejemplo DiarioJIJAZO) puede leer el resumen público
+api.use('/publico', (req, res, next) => {
+  res.set('Access-Control-Allow-Origin', '*');
+  res.set('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  if (req.method === 'OPTIONS') return res.sendStatus(204);
+  next();
+});
+
 api.get('/publico/resumen', r(async (req, res) => {
   const d = await store.getDatos();
   const zona = config.zonaHoraria;
